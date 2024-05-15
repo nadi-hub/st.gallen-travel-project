@@ -3,7 +3,7 @@ body {
   background: darkslategrey;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 header {
@@ -48,6 +48,7 @@ header a {
   padding: 16px 32px;
   display: inline-block;
   margin-top: 32px;
+  color: darkslategray;
 }
 
 @media (max-width: 900px) {
