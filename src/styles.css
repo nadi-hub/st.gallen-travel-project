@@ -131,10 +131,7 @@ main h5 {
 
 footer {
   color: white;
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/800/original/sg.jpg?1716021781");
   background-repeat: no-repeat;
   background-size: cover;
@@ -157,7 +154,7 @@ footer ul {
 footer li {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-bottom: 8px;
 }
 
 footer a {
@@ -179,6 +176,7 @@ footer a {
 
 .grid-3-columnos {
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 0;
 }
 
 .img-responsive {
@@ -196,6 +194,10 @@ footer a {
 .embed {
   width: 100%;
   aspect-ratio: 1/1;
+}
+.gallery {
+  max-width: 100%;
+  grid-gap: none;
 }
 
 .card-header img {
