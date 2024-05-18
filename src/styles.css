@@ -182,13 +182,24 @@ footer a {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
 .card img {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.card-header img {
+  aspect-ratio: 1/1;
 }
 @media (max-width: 960px) {
   header {
@@ -213,5 +224,11 @@ footer a {
   }
   main h3 {
     font-size: 24px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
